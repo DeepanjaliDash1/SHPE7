@@ -7,8 +7,15 @@
 }
 
 .footerUpper{
-    padding: 10px;
+    padding: 1px;
     display: flex;
+    justify-content: left;
+    overflow: auto;
+    margin: 0px;
+    min-height: 1vh;
+    flex-direction: column;
+
+    
 
     /* justify-content: space-evenly; */
    
@@ -21,8 +28,20 @@ span{
     color: blue;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 568px) {
     .footerUpper {
       flex-wrap: nowrap;
+      
+
     }
+    .lowerfooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        justify-content: space-evenly;
+
+      }
+     
+    
   }

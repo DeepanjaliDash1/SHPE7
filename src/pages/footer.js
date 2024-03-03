@@ -52,6 +52,7 @@ const Footer = () => {
                     <Typography>ERP Compliance</Typography>
                     
                 </Grid>
+                {/* <div className='Vl'></div> */}
                 <Grid item xs={12} sm={6} md={2} >
                     <Typography variant="h6">Mail Us:</Typography>
                     <Typography>
@@ -82,15 +83,20 @@ const Footer = () => {
 
                 </Grid> 
 
-               
+                
             </Grid> <hr />
             <Grid className="lowerfooter">
+
+                
+
+{/* <Grid style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'lightgray', height: '0px' }}> */}
+  {/* </Grid>  */}
                 <Grid> <StorefrontIcon/> Become a Seller</Grid>
                 <Grid> <AutoAwesomeIcon/> Advertise</Grid>
                 <Grid> < RedeemIcon /> Gift Cards</Grid>
                 <Grid> <HelpOutlineIcon/> Help Center</Grid>
                 <Grid> <CopyrightIcon/> 2007-2024 Shope7.com</Grid>
-                <Grid>6</Grid>
+                
                 <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg" alt="Payment methods"></img>
             </Grid>
         </Grid>
